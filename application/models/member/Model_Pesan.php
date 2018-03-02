@@ -14,8 +14,8 @@ class Model_pesan extends CI_Model {
 	}
 
 	public function get_pesan($id, $str, $end){
-		$q=$this->db->query("select pesan.id,user.username,user.nama,pesan.tgl_kirim,pesan.isi from
-		pesan join user on user.id=pesan.penerima where pesan.pengirim=$id  or pesan.penerima=$id order by tgl_kirim DESC limit $str,$end ");
+		$q=$this->db->query("select pesan.id,pesan.read,user.username,user.nama,pesan.tgl_kirim,pesan.isi from
+		pesan join user on user.id=pesan.penerima where pesan.pengirim=$id  or pesan.penerima=$id  order by tgl_kirim DESC limit $str,$end ");
 		return $q->result();
 	}
 

@@ -9,7 +9,7 @@ class Pesan extends CI_Controller {
 	}
 	public function index()
 	{
-		$data["data"]=$this->model_kategori->get_kategori();
+		$data["data"]=$this->model_kategori->get_pesan();
 		$data["link"]="pesan";
 		$this->load->view('member/index',$data);
 	}
