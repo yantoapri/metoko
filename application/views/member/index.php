@@ -50,8 +50,8 @@
                 <li class="list-group-item bg-dark text-center text-white header"><b>Menu</b></li>
                 <a href="<?php echo site_url(); ?>/member/home" class="list-group-item list-group-item-dark"><span class="fa fa-home"></span> Home</a>
                 <a href="<?php echo site_url(); ?>/member/produk" class="list-group-item list-group-item-dark"><span class="fa fa-magic"></span> Produk</a>
-                <a href="<?php echo site_url(); ?>/member/kategori" class="list-group-item list-group-item-dark"><span class="fa fa-tag"></span> Kategori</a>
-                <a href="#" class="list-group-item list-group-item-dark">dll</a>
+                <a href="<?php echo site_url(); ?>/member/categori" class="list-group-item list-group-item-dark"><span class="fa fa-tag"></span> Categori</a>
+                <a href="<?php echo site_url(); ?>/member/job" class="list-group-item list-group-item-dark" ><span class="fa fa-home"></span> Job</a>
               </ul>
           </nav>
           <main class="col-md-10 bg-light"  >

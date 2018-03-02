@@ -18,7 +18,7 @@ class Model_produk extends CI_Model {
 	}
 	public function get_produk($str,$end){
 		$q=$this->db->query("select produk.id,produk.produk,produk.harga,produk.view,produk.like,produk.download,kategori.kategori from
-		produk join kategori on kategori.id=produk.id_kat order by tgl_simpan DESC limit $str,$end ");
+		produk join kategori on kategori.id=produk.id_kat order by tgl_post DESC limit $str,$end ");
 		return $q->result();
 	}
 
