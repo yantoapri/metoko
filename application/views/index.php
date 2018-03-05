@@ -18,7 +18,7 @@
 <!--     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/carousel.css"> --> <script src="<?php echo base_url(); ?>assets/js/jquery.js" ></script>
   </head>
 
-  <body>
+  <body>dghdfghghf
 
     <header>
       <nav class="navbar navbar-expand-md bg-info navbar-info">
